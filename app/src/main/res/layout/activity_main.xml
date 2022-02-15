@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TopLeft -->
+    <TextView
+        android:id="@+id/textTopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top left"
+        android:layout_gravity="top|left"
+        />
+    <!-- End TopLeft -->
+
+    <!-- TopCenter -->
+    <TextView
+        android:id="@+id/textTopCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top center"
+        android:layout_gravity="top|center_horizontal"
+        />
+    <!-- End TopCenter -->
+
+    <!-- TopRight -->
+    <TextView
+        android:id="@+id/textTopRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top right"
+        android:layout_gravity="top|right"
+        />
+    <!-- End TopRight -->
+
+    <!-- CenterLeft -->
+    <TextView
+        android:id="@+id/textCenterLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center left"
+        android:layout_gravity="center|left"
+        />
+    <!-- End C-Left -->
+
+    <!-- Center -->
+    <TextView
+        android:id="@+id/textCenterCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center center"
+        android:layout_gravity="center|center"
+        />
+    <!-- End Center -->
+
+    <!-- CenterRight -->
+    <TextView
+        android:id="@+id/textCenterRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center right"
+        android:layout_gravity="center|right"
+        />
+    <!-- End C-Right -->
+
+    <!-- BottomLeft -->
+    <TextView
+        android:id="@+id/textBottomLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bottom left"
+        android:layout_gravity="bottom|left"
+        />
+    <!-- End B-Left -->
+
+    <!-- BottomCenter -->
+    <TextView
+        android:id="@+id/textBottomCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bottom center"
+        android:layout_gravity="bottom|center"
+        />
+    <!-- End B-Center -->
+
+    <!-- BottomRight -->
+    <TextView
+        android:id="@+id/textBottomRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bottom right"
+        android:layout_gravity="bottom|right"
+        />
+    <!-- End B-Right -->
+</FrameLayout>
